@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>day06</display-name>
+<context-param>
+	<param-name>tel</param-name>
+	<param-value>18290243328</param-value>
+</context-param>
+<context-param>
+	<param-name>email</param-name>
+	<param-value>228602890@qq.com</param-value>
+</context-param>  
+  
+  
+  <servlet>
+    <servlet-name>DownServlet</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.DownServlet</servlet-class>
+    <init-param>
+	<param-name>filePath</param-name>
+	<param-value>d:\t.jpg</param-value>
+	</init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo11</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.Demo11</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo12</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.Demo12</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo2</servlet-name>
+    <servlet-class>cn.itcast.web.response.Demo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.itcast.web.response.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo4</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.Demo4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo5</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.Demo5</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo8</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.Demo8</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo6</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.Demo6</servlet-class>
+    <init-param>
+	<param-name>html</param-name>
+	<param-value>86400</param-value>
+</init-param>
+<init-param>
+	<param-name>js</param-name>
+	<param-value>86400</param-value>
+</init-param>
+<init-param>
+	<param-name>css</param-name>
+	<param-value>86400</param-value>
+</init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo7</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.Demo7</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo1</servlet-name>
+    <servlet-class>cn.itcast.web.request.Demo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo3</servlet-name>
+    <servlet-class>cn.itcast.web.response.Demo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo33</servlet-name>
+    <servlet-class>cn.itcast.web.response.Demo33</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DownServlet</servlet-name>
+    <url-pattern>/DownServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo11</servlet-name>
+    <url-pattern>/Demo11</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo12</servlet-name>
+    <url-pattern>/Demo12</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo2</servlet-name>
+    <url-pattern>/Demo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo4</servlet-name>
+    <url-pattern>/Demo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo5</servlet-name>
+    <url-pattern>/Demo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo8</servlet-name>
+    <url-pattern>/Demo8</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo6</servlet-name>
+    <url-pattern>/Demo6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo7</servlet-name>
+    <url-pattern>/Demo7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo1</servlet-name>
+    <url-pattern>/Demo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo3</servlet-name>
+    <url-pattern>/Demo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo33</servlet-name>
+    <url-pattern>/Demo33</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
